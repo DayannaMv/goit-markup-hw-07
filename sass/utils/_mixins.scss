@@ -3,6 +3,11 @@
     justify-content: $justify;
     align-items: $align;
 }
+@mixin flex-container($flex, $justify, $flex-wrap) {
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $flex-wrap;
+}
 
 @mixin flex($flex, $align) {
     display: $flex;
@@ -47,4 +52,9 @@
 @mixin margin($margin-top, $margin-left) {
     margin-top: $margin-top;
     margin-left: $margin-left;
+}
+@mixin positions3($position, $top, $left) {
+    position: $position;
+    top: $top;
+    left: $left;
 }

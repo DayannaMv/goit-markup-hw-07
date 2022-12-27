@@ -6,40 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./sass/main.css">
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 
 </head>
 
-<body>
-   <!-- Header section -->
-  <header class="header">
-    <div class="header__container">
-      <nav class="header__nav-menu">
-        <!-- Logo  -->
-        <a class="header__logo" href="./index.html">WebStudio</a>
-        <!-- menu  -->
-        <ul class="header__menu">
-          <li><a class="header__page" href="./index.html">Estudio</a></li>
-          <li><a class="header__page" href="./portfolio.html">Portafolio</a></li>
-          <li><a class="header__page" href="">Contacto</a></li>
-        </ul>
-      </nav>
-      <!-- contacts  -->
-      <ul class="header__contacts-menu">
-        <li><svg class="header__contacts-svg" width="16" height="16"> 
-          <use class="header__svg-use"
-            href="./images/sprite SVG/icons.svg#icon-mail">
-          </use>
-        </svg><a class="header__item" href="#">info@devstudio.com</a></li>
-        
-        <li><svg class="header__contacts-svg" width="16" height="16"> 
-          <use class="header__svg-use"
-            href="./images/sprite SVG/icons.svg#icon-tel">
-          </use>
-        </svg><a class="header__item" href="#">+52 55 5529 6000</a></li>
-      </ul>
-    </div>
+<body class="body">
+<!-- Header section -->
+<header class="header container">
+   
+  <nav class="header__nav-menu">
+    <!-- Logo  -->
+    <a class="header__logo logo" href="./index.html">WebStudio</a>
+    <!-- menu  -->
+    <ul class="header__menu">
+      <li><a class="header__page" href="./index.html">Estudio</a></li>
+      <li><a class="header__page" href="./portfolio.html">Portafolio</a></li>
+      <li><a class="header__page" href="">Contacto</a></li>
+    </ul>
+  </nav>
+  <!-- contacts  -->
+  <ul class="header__contacts-menu">
+    <li><svg class="header__contacts-svg" width="16" height="16"> 
+      <use class="header__svg-use"
+        href="./images/sprite SVG/icons.svg#icon-mail">
+      </use>
+    </svg><a class="header__item" href="#">info@devstudio.com</a></li>
+    
+    <li><svg class="header__contacts-svg" width="16" height="16"> 
+      <use class="header__svg-use"
+        href="./images/sprite SVG/icons.svg#icon-tel">
+      </use>
+    </svg><a class="header__item" href="#">+52 55 5529 6000</a></li>
+  </ul>
+
+</header>
   </header>
 
   <main>
@@ -182,18 +183,18 @@
 
   <footer class="footer">
     <div class="container">
-      <a class="footer__logotype" href="">WebStudio</a>
+      <a class="footer__logotype logo" href="">WebStudio</a>
       <address class="footer__address">
         <ul class="footer__information">
           <li>
-            <a class="footer__direction" href="#" target="_blank" rel="noopener noreferrer"> Calz. Ticomán 500, Ciudad de <br />
+            <a class="footer__direction info" href="#" target="_blank" rel="noopener noreferrer"> Calz. Ticomán 500, Ciudad de <br />
               México, CDMX, México</a>
           </li>
           <li>
-            <a class="footer__contact" href="mailto:info@devstudio.com">info@example.com</a>
+            <a class="footer__contact info" href="mailto:info@devstudio.com">info@example.com</a>
           </li>
           <li>
-            <a class="footer__contact" href="tel:380961111111">+52 55 5529 6000</a>
+            <a class="footer__contact info" href="tel:380961111111">+52 55 5529 6000</a>
           </li>
         </ul>
       </address>

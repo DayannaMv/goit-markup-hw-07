@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section {
+  padding: 94px 0;
+}
 .container {
   padding: 0 15px;
   max-width: 1200px;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .body {
   background-color: $primary-white-color;
@@ -17,15 +23,18 @@
 .no-top-pading {
   padding-top: 0;
 }
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
+.logo {
+  font-family: raleway;
+  @include fonts($accent-color, 26px, 700, 1.2);
+  text-decoration: none;
 }
 
 .header {
+  border-bottom: 1px solid #ececec;
+  width: 1700px;
+}
+.header {
   height: 80px;
-  border: 1px solid #ececec;
   @include flex-container(flex, space-between, center);
   flex-wrap: nowrap;
 
@@ -33,11 +42,11 @@
     @include flex(flex, center);
     gap: 100px;
   }
-  &__logo {
-    font-family: raleway;
-    @include fonts($accent-color, 26px, 700, 1.2);
-    text-decoration: none;
-  }
+  // &__logo {
+  //   font-family: raleway;
+  //   @include fonts($accent-color, 26px, 700, 1.2);
+  //   text-decoration: none;
+  // }
   &__menu {
     display: flex;
     list-style: none;
@@ -53,7 +62,6 @@
     display: flex;
     list-style: none;
     gap: 80px;
-    
   }
   &__item {
     @include fonts($primary-text-color, 14px, 500, 1.4);
