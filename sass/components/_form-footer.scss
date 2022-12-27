@@ -1,20 +1,3 @@
-/* portafolio */
-.label--two {
-  position: absolute;
-  left: 815px;
-  top: 1780px;
-}
-
-.button--two {
-  left: 1185px;
-  top: 1814px;
-}
-
-.icon--two {
-  position: absolute;
-  top: 1828px;
-  left: 1330px;
-}
 
 .form-footer {
   &__label {
@@ -53,4 +36,21 @@
   &__icon-message {
     @include positions3(absolute, 2907px, 1330px);
   }
+}
+/* portafolio */
+.label--two {
+  position: absolute;
+  left: 815px;
+  top: 1780px;
+}
+
+.button--two {
+  left: 1185px;
+  top: 1814px;
+}
+
+.icon--two {
+  position: absolute;
+  top: 1828px;
+  left: 1330px;
 }

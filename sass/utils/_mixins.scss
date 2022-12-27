@@ -3,7 +3,7 @@
     justify-content: $justify;
     align-items: $align;
 }
-@mixin flex-container($flex, $justify, $flex-wrap) {
+@mixin flex-container2($flex, $justify, $flex-wrap) {
     display: $flex;
     justify-content: $justify;
     flex-wrap: $flex-wrap;
