@@ -1,0 +1,50 @@
+@mixin flex-container($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flex($flex, $align) {
+    display: $flex;
+    align-items: $align;
+}
+
+@mixin fonts($color, $font-size, $font-weight, $line-height,) {
+    color: $color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+
+@mixin positions($position, $width, $height, $top, $left) {
+    position: $position;
+    width: $width;
+    height: $height;
+    top: $top;
+    left: $left;
+}
+@mixin positions2($position, $width, $height, $top, $left, $right, $bottom) {
+    position: $position;
+    width: $width;
+    height: $height;
+    left: $top;
+    top: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin size($width, $height) {
+    width: $width;
+    height:$height;
+}
+
+@mixin flex2($display, $flex-direction, $text-align ) {
+    display: $display;
+    flex-direction: $flex-direction;
+    text-align:$text-align;
+}
+
+@mixin margin($margin-top, $margin-left) {
+    margin-top: $margin-top;
+    margin-left: $margin-left;
+}
