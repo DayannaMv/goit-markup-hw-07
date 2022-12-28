@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     gap: 10px;
     width: 300px;
-    @include positions(absolute, 206px, 80px, 2872px, 507px);
+    @include positions(absolute, 206px, 80px, 2898px, 517px);
     
   }
   &__list-icons {
@@ -23,14 +23,14 @@
   &__paragraph {
     @include fonts($primary-white-color, 14px, 700, 16px);
     position: absolute;
-    top: 2860px;
+    top: 2886px;
     right: 930px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
 }
 .set--icons {
-  left: 507px;
+  left: 517px;
   top: 1795px;
 }
 .paragraph--two {
