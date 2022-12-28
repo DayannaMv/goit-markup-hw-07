@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     gap: 10px;
     width: 300px;
-    @include positions(absolute, 206px, 80px, 2872px, 516px);
+    @include positions(absolute, 206px, 80px, 2872px, 507px);
     
   }
   &__list-icons {
@@ -30,7 +30,7 @@
   }
 }
 .set--icons {
-  left: 516px;
+  left: 507px;
   top: 1795px;
 }
 .paragraph--two {

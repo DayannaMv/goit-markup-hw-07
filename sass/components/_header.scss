@@ -19,20 +19,17 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .no-top-pading {
   padding-top: 0;
 }
 .logo {
-  font-family: raleway;
+  font-family: "Raleway", sans-serif;
   @include fonts($accent-color, 26px, 700, 1.2);
   text-decoration: none;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-  width: 1700px;
-}
 .header {
   height: 80px;
   @include flex-container(flex, space-between, center);
@@ -74,8 +71,8 @@ section {
     width: 16px;
     margin-right: 10px;
   }
-  &__contacts-svg:hover {
-    fill: var(--accent-color);
+  &__contacts-menu :hover &__contacts-path {
+    fill: $accent-color;
   }
   &__page:hover,
   &__page:focus,
@@ -85,8 +82,12 @@ section {
   }
   &__page:hover,
   &__page:focus {
-    border-bottom: 4px solid var(--accent-color);
+    border-bottom: 4px solid $accent-color;
     border-radius: 2px;
-    padding-bottom: 28px;
+    padding-bottom: 29px;
   }
+}
+.header {
+  border-bottom: 1px solid #ececec;
+  width: 1700px;
 }

@@ -21,6 +21,7 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .no-top-pading {
@@ -28,17 +29,12 @@ section {
 }
 
 .logo {
-  font-family: raleway;
+  font-family: "Raleway", sans-serif;
   color: #2196f3;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   text-decoration: none;
-}
-
-.header {
-  border-bottom: 1px solid #ececec;
-  width: 1700px;
 }
 
 .header {
@@ -86,16 +82,21 @@ section {
   width: 16px;
   margin-right: 10px;
 }
-.header__contacts-svg:hover {
-  fill: var(--accent-color);
+.header__contacts-menu :hover .header__contacts-path {
+  fill: #2196f3;
 }
 .header__page:hover, .header__page:focus, .header__item:hover, .header__item:focus {
   color: #2196f3;
 }
 .header__page:hover, .header__page:focus {
-  border-bottom: 4px solid var(--accent-color);
+  border-bottom: 4px solid #2196f3;
   border-radius: 2px;
-  padding-bottom: 28px;
+  padding-bottom: 29px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+  width: 1700px;
 }
 
 .main-service {
@@ -469,7 +470,7 @@ section {
 .section-customers__list-logotype:hover {
   border: 1px solid #2196f3;
 }
-.section-customers__logo:hover {
+.section-customers__logotype :hover .section-customers__logo {
   fill: #2196f3;
 }
 .section-customers__subtitle {
@@ -521,7 +522,7 @@ section {
   width: 206px;
   height: 80px;
   top: 2872px;
-  left: 516px;
+  left: 507px;
 }
 .social-media__list-icons {
   width: 44px;
@@ -552,7 +553,7 @@ section {
 }
 
 .set--icons {
-  left: 516px;
+  left: 507px;
   top: 1795px;
 }
 
@@ -664,6 +665,7 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
   list-style-type: none;
+  text-decoration: none;
 }
 .portfolio-cards__list-card {
   margin-bottom: 20px;
@@ -677,15 +679,6 @@ section {
 }
 .portfolio-cards__list-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.portfolio-cards__title {
-  color: #212121;
-  padding: 15px;
-}
-.portfolio-cards__text {
-  color: #757575;
-  font-size: 16px;
-  padding: 15px;
 }
 .portfolio-cards__card-animation {
   color: #ffffff;
@@ -709,4 +702,18 @@ section {
 .portfolio-cards__card-img {
   position: relative;
   overflow: hidden;
+}
+.portfolio-cards__title {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 15px;
+}
+.portfolio-cards__text {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 15px;
 }/*# sourceMappingURL=main.css.map */

@@ -13,12 +13,16 @@
   &__logo {
     margin-top: 15px;
   }
-  &__list-logotype:hover {
+  &__list-logotype:hover{
     border: 1px solid $accent-color;
   }
-  &__logo:hover {
+  &__logotype :hover &__logo {
     fill: $accent-color;
   }
+
+  // &__list-logotype:hover &__path {
+  //   fill: $accent-color;
+  // }
   &__subtitle {
     margin-bottom: 20px;
   }
